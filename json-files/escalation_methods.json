@@ -1,0 +1,11 @@
+[
+  {
+    "ID": "method1",
+    "Name": "CreateEC2WithExistingIP",
+    "User": "kerrigan",
+    "Permissions": [
+      "ec2:RunInstances",
+      "iam:PassRole"
+    ]
+  }
+]

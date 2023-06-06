@@ -1,0 +1,48 @@
+[
+  {
+    "Bucket": "cg-logs-s3-bucket-rce-web-app-cgidf2w55akgpm",
+    "Class": "STANDARD",
+    "ID": "cg-lb-logs/AWSLogs/034298275223/ELBAccessLogTestFile",
+    "Key": "cg-lb-logs/AWSLogs/034298275223/ELBAccessLogTestFile",
+    "Modified": "2023-06-01T21:24:37Z",
+    "Owner": "4bd1c4aa7430573588e9ed8ef1c63fa474eef97824118370d0b58c085a977ea0",
+    "Size": 107
+  },
+  {
+    "Bucket": "cg-logs-s3-bucket-rce-web-app-cgidf2w55akgpm",
+    "Class": "STANDARD",
+    "ID": "cg-lb-logs/AWSLogs/034298275223/elasticloadbalancing/us-east-1/2019/06/19/555555555555_elasticloadbalancing_us-east-1_app.cg-lb-cgidp347lhz47g.d36d4f13b73c2fe7_20190618T2140Z_10.10.10.100_5m9btchz.log",
+    "Key": "cg-lb-logs/AWSLogs/034298275223/elasticloadbalancing/us-east-1/2019/06/19/555555555555_elasticloadbalancing_us-east-1_app.cg-lb-cgidp347lhz47g.d36d4f13b73c2fe7_20190618T2140Z_10.10.10.100_5m9btchz.log",
+    "Modified": "2023-06-01T21:22:52Z",
+    "Owner": "4bd1c4aa7430573588e9ed8ef1c63fa474eef97824118370d0b58c085a977ea0",
+    "Size": 18367
+  },
+  {
+    "Bucket": "cg-keystore-s3-bucket-rce-web-app-cgidf2w55akgpm",
+    "Class": "STANDARD",
+    "ID": "cloudgoat",
+    "Key": "cloudgoat",
+    "Modified": "2023-06-01T21:22:52Z",
+    "Owner": "4bd1c4aa7430573588e9ed8ef1c63fa474eef97824118370d0b58c085a977ea0",
+    "Size": 3381,
+    "HasCredsFor": "keypair"
+  },
+  {
+    "Bucket": "cg-keystore-s3-bucket-rce-web-app-cgidf2w55akgpm",
+    "Class": "STANDARD",
+    "ID": "cloudgoat.pub",
+    "Key": "cloudgoat.pub",
+    "Modified": "2023-06-01T21:22:52Z",
+    "Owner": "4bd1c4aa7430573588e9ed8ef1c63fa474eef97824118370d0b58c085a977ea0",
+    "Size": 743
+  },
+  {
+    "Bucket": "cg-secret-s3-bucket-rce-web-app-cgidf2w55akgpm",
+    "Class": "STANDARD",
+    "ID": "db.txt",
+    "Key": "db.txt",
+    "Modified": "2023-06-01T21:22:52Z",
+    "Owner": "4bd1c4aa7430573588e9ed8ef1c63fa474eef97824118370d0b58c085a977ea0",
+    "Size": 282
+  }
+]

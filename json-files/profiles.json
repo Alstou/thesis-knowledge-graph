@@ -1,0 +1,12 @@
+[
+ {
+  "Arn": "arn:aws:iam::034298275223:instance-profile/cg-ec2-instance-profile-rce_web_app_cgidf2w55akgpm",
+  "Created": "2023-06-01T21:22:49Z",
+  "ID": "AIPAQP7CWEWLWRRK57WPM",
+  "Name": "cg-ec2-instance-profile-rce_web_app_cgidf2w55akgpm",
+  "Path": "/",
+  "Roles": [
+   "AROAQP7CWEWL3F5BWL3H6"
+  ]
+ }
+]

@@ -1,0 +1,44 @@
+[
+ {
+  "Created": "2023-06-01T21:22:50Z",
+  "Grants": [
+   {
+    "Permission": "FULL_CONTROL",
+    "Grantee": {
+     "GranteeID": "4bd1c4aa7430573588e9ed8ef1c63fa474eef97824118370d0b58c085a977ea0",
+     "GranteeDisplayName": "stournaras.alexios",
+     "GranteeType": "CanonicalUser"
+    }
+   }
+  ],
+  "ID": "cg-keystore-s3-bucket-rce-web-app-cgidf2w55akgpm"
+ },
+ {
+  "Created": "2023-06-01T21:22:49Z",
+  "Grants": [
+   {
+    "Permission": "FULL_CONTROL",
+    "Grantee": {
+     "GranteeID": "4bd1c4aa7430573588e9ed8ef1c63fa474eef97824118370d0b58c085a977ea0",
+     "GranteeDisplayName": "stournaras.alexios",
+     "GranteeType": "CanonicalUser"
+    }
+   }
+  ],
+  "ID": "cg-logs-s3-bucket-rce-web-app-cgidf2w55akgpm"
+ },
+ {
+  "Created": "2023-06-01T21:22:49Z",
+  "Grants": [
+   {
+    "Permission": "FULL_CONTROL",
+    "Grantee": {
+     "GranteeID": "4bd1c4aa7430573588e9ed8ef1c63fa474eef97824118370d0b58c085a977ea0",
+     "GranteeDisplayName": "stournaras.alexios",
+     "GranteeType": "CanonicalUser"
+    }
+   }
+  ],
+  "ID": "cg-secret-s3-bucket-rce-web-app-cgidf2w55akgpm"
+ }
+]

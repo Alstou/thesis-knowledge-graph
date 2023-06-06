@@ -1,0 +1,50 @@
+[
+{
+  "Arn": "arn:aws:iam::aws:policy/AmazonS3FullAccess",
+  "ID": "ANPAIFIR6V6BVTRAHWINE",
+  "PolicyGroups": [],
+  "PolicyUsers": [],
+  "PolicyRoles": [
+    {
+      "RoleName": "cg-ec2-role-rce_web_app_cgidf2w55akgpm",
+      "RoleId": "AROAQP7CWEWL3F5BWL3H6"
+    }
+  ]
+},
+{
+  "Arn": "arn:aws:iam::034298275223:policy/cg-ec2-rds-policy",
+  "ID": "ANPAQP7CWEWL2AZRQFLZK",
+  "PolicyGroups": [],
+  "PolicyUsers": [],
+  "PolicyRoles": [
+    {
+      "RoleName": "cg-ec2-role-rce_web_app_cgidf2w55akgpm",
+      "RoleId": "AROAQP7CWEWL3F5BWL3H6"
+    }
+  ]
+},
+{
+  "Arn": "arn:aws:iam::034298275223:policy/cg-mcduck-s3-policy",
+  "ID": "ANPAQP7CWEWL4PLUD3OXF",
+  "PolicyGroups": [],
+  "PolicyUsers": [
+    {
+      "UserName": "McDuck",
+      "UserId": "AIDAQP7CWEWL6S3ECTBXG"
+    }
+  ],
+  "PolicyRoles": []
+},
+{
+  "Arn": "arn:aws:iam::034298275223:policy/cg-lara-s3-policy",
+  "ID": "ANPAQP7CWEWL67N44IUPH",
+  "PolicyGroups": [],
+  "PolicyUsers": [
+    {
+      "UserName": "lara",
+      "UserId": "AIDAQP7CWEWLZOFOY6Y7W"
+    }
+  ],
+  "PolicyRoles": []
+}
+]

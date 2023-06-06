@@ -1,0 +1,185 @@
+[
+ {
+  "Description": "CloudGoat iam_privesc_by_attachment_cgidtpbug3dicv Security Group for EC2 Instance over HTTP",
+  "ID": "sg-01ea616ea47b8d47d",
+  "InboundRules": [
+   {
+    "PortRange": {
+     "FromPort": 443,
+     "ToPort": 443,
+     "Any": false
+    },
+    "Protocol": "tcp",
+    "IPRanges": [
+     {
+      "IP": "92.34.23.136",
+      "Mask": "/////w=="
+     }
+    ],
+    "Sources": null
+   },
+   {
+    "PortRange": {
+     "FromPort": 80,
+     "ToPort": 80,
+     "Any": false
+    },
+    "Protocol": "tcp",
+    "IPRanges": [
+     {
+      "IP": "92.34.23.136",
+      "Mask": "/////w=="
+     }
+    ],
+    "Sources": null
+   }
+  ],
+  "Name": "cg-ec2-http-iam_privesc_by_attachment_cgidtpbug3dicv",
+  "OutboundRules": [
+   {
+    "PortRange": {
+     "FromPort": 0,
+     "ToPort": 0,
+     "Any": true
+    },
+    "Protocol": "any",
+    "IPRanges": [
+     {
+      "IP": "0.0.0.0",
+      "Mask": "AAAAAA=="
+     }
+    ],
+    "Sources": null
+   }
+  ],
+  "Owner": "034298275223",
+  "Tags": [
+   "Stack=CloudGoat",
+   "Scenario=iam-privesc-by-attachment",
+   "Name=cg-ec2-http-iam_privesc_by_attachment_cgidtpbug3dicv"
+  ],
+  "Vpc": "vpc-0f8af2e5c03f0a502"
+ },
+ {
+  "Description": "default VPC security group",
+  "ID": "sg-0388a41505410a6c6",
+  "InboundRules": [
+   {
+    "PortRange": {
+     "FromPort": 0,
+     "ToPort": 0,
+     "Any": true
+    },
+    "Protocol": "any",
+    "IPRanges": null,
+    "Sources": [
+     "sg-0388a41505410a6c6"
+    ]
+   }
+  ],
+  "Name": "default",
+  "OutboundRules": [
+   {
+    "PortRange": {
+     "FromPort": 0,
+     "ToPort": 0,
+     "Any": true
+    },
+    "Protocol": "any",
+    "IPRanges": [
+     {
+      "IP": "0.0.0.0",
+      "Mask": "AAAAAA=="
+     }
+    ],
+    "Sources": null
+   }
+  ],
+  "Owner": "034298275223",
+  "Vpc": "vpc-0f8af2e5c03f0a502"
+ },
+ {
+  "Description": "CloudGoat iam_privesc_by_attachment_cgidtpbug3dicv Security Group for EC2 Instance over SSH",
+  "ID": "sg-03bbc904a0038cc80",
+  "InboundRules": [
+   {
+    "PortRange": {
+     "FromPort": 22,
+     "ToPort": 22,
+     "Any": false
+    },
+    "Protocol": "tcp",
+    "IPRanges": [
+     {
+      "IP": "92.34.23.136",
+      "Mask": "/////w=="
+     }
+    ],
+    "Sources": null
+   }
+  ],
+  "Name": "cg-ec2-ssh-iam_privesc_by_attachment_cgidtpbug3dicv",
+  "OutboundRules": [
+   {
+    "PortRange": {
+     "FromPort": 0,
+     "ToPort": 0,
+     "Any": true
+    },
+    "Protocol": "any",
+    "IPRanges": [
+     {
+      "IP": "0.0.0.0",
+      "Mask": "AAAAAA=="
+     }
+    ],
+    "Sources": null
+   }
+  ],
+  "Owner": "034298275223",
+  "Tags": [
+   "Name=cg-ec2-ssh-iam_privesc_by_attachment_cgidtpbug3dicv",
+   "Stack=CloudGoat",
+   "Scenario=iam-privesc-by-attachment"
+  ],
+  "Vpc": "vpc-0f8af2e5c03f0a502"
+ },
+ {
+  "Description": "default VPC security group",
+  "ID": "sg-07252545a752aafdc",
+  "InboundRules": [
+   {
+    "PortRange": {
+     "FromPort": 0,
+     "ToPort": 0,
+     "Any": true
+    },
+    "Protocol": "any",
+    "IPRanges": null,
+    "Sources": [
+     "sg-07252545a752aafdc"
+    ]
+   }
+  ],
+  "Name": "default",
+  "OutboundRules": [
+   {
+    "PortRange": {
+     "FromPort": 0,
+     "ToPort": 0,
+     "Any": true
+    },
+    "Protocol": "any",
+    "IPRanges": [
+     {
+      "IP": "0.0.0.0",
+      "Mask": "AAAAAA=="
+     }
+    ],
+    "Sources": null
+   }
+  ],
+  "Owner": "034298275223",
+  "Vpc": "vpc-0ba6c5c4961b288ca"
+ }
+]

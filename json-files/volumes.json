@@ -1,0 +1,20 @@
+[
+ {
+  "AvailabilityZone": "us-east-1a",
+  "Created": "2023-06-01T21:27:24.996Z",
+  "Encrypted": false,
+  "ID": "vol-092f11476803db990",
+  "Instances": [
+   "i-037335386fe9ec406"
+  ],
+  "Name": "CloudGoat rce_web_app_cgidf2w55akgpm EC2 Instance Root Device",
+  "Size": 8,
+  "State": "in-use",
+  "Tags": [
+   "Stack=CloudGoat",
+   "Name=CloudGoat rce_web_app_cgidf2w55akgpm EC2 Instance Root Device",
+   "Scenario=rce-web-app"
+  ],
+  "Type": "gp2"
+ }
+]

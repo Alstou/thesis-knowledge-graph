@@ -1,0 +1,41 @@
+[
+ {
+  "Arn": "arn:aws:rds:us-east-1:034298275223:db:cg-rds-instance-rce-web-app-cgidf2w55akgpm",
+  "AutoUpgrade": true,
+  "AvailabilityZone": "us-east-1a",
+  "BackupRetentionPeriod": 0,
+  "CertificateAuthority": "rds-ca-2019",
+  "Class": "db.t2.micro",
+  "CopyTagsToSnapshot": false,
+  "Created": "2023-06-01T21:26:52.181Z",
+  "DBSubnetGroup": "cloud-goat-rds-subnet-group-rce_web_app_cgidf2w55akgpm",
+  "Encrypted": false,
+  "Engine": "postgres",
+  "EngineVersion": "12.13",
+  "GlobalID": "db-3CD4H3SILQ3JBXBRJAKKD44XKQ",
+  "ID": "cg-rds-instance-rce-web-app-cgidf2w55akgpm",
+  "License": "postgresql-license",
+  "MonitoringInterval": 0,
+  "MultiAZ": false,
+  "Name": "cloudgoat",
+  "OptionGroups": [
+   "default:postgres-12"
+  ],
+  "ParameterGroups": [
+   "default.postgres12"
+  ],
+  "Port": 0,
+  "PreferredBackupDate": "03:13-03:43",
+  "PreferredMaintenanceDate": "mon:04:29-mon:04:59",
+  "Public": false,
+  "PublicDNS": "cg-rds-instance-rce-web-app-cgidf2w55akgpm.cr5uiz4otmkh.us-east-1.rds.amazonaws.com",
+  "SecurityGroups": [
+   "sg-0e9097fdaf1a99735"
+  ],
+  "State": "available",
+  "Storage": 20,
+  "StorageType": "gp2",
+  "Username": "cgadmin",
+  "Zone": "Z2R2ITUGPM61AM"
+ }
+]

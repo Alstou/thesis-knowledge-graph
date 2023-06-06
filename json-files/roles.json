@@ -1,0 +1,10 @@
+[
+  {
+    "Arn": "arn:aws:iam::034298275223:role/cg-ec2-role-rce_web_app_cgidf2w55akgpm",
+    "Created": "2023-06-01T21:22:48Z",
+    "ID": "AROAQP7CWEWL3F5BWL3H6",
+    "Name": "cg-ec2-role-rce_web_app_cgidf2w55akgpm",
+    "Path": "/",
+    "TrustPolicy": "{\"Version\":\"2012-10-17\",\"Statement\":[{\"Sid\":\"\",\"Effect\":\"Allow\",\"Principal\":{\"Service\":\"ec2.amazonaws.com\"},\"Action\":\"sts:AssumeRole\"}]}"
+  }
+]

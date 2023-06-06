@@ -1,0 +1,77 @@
+[
+ {
+  "Architecture": "x86_64",
+  "AvailabilityZone": "us-east-1a",
+  "Hypervisor": "xen",
+  "ID": "i-018ba49d6bc709a1c",
+  "Image": "ami-0a313d6098716f372",
+  "KeyPair": "cg-ec2-key-pair-ec2_ssrf_cgidaytnc8jszo",
+  "Launched": "2023-06-01T20:34:36Z",
+  "Name": "cg-ubuntu-ec2-ec2_ssrf_cgidaytnc8jszo",
+  "PlacementGroup": "",
+  "PublicDNS": "",
+  "RootDevice": "/dev/sda1",
+  "RootDeviceType": "ebs",
+  "State": "terminated",
+  "Tags": [
+   "Scenario=ec2-ssrf",
+   "Stack=CloudGoat",
+   "Name=cg-ubuntu-ec2-ec2_ssrf_cgidaytnc8jszo"
+  ],
+  "Type": "t2.micro"
+ },
+ {
+  "Architecture": "x86_64",
+  "AvailabilityZone": "us-east-1a",
+  "Hypervisor": "xen",
+  "ID": "i-037335386fe9ec406",
+  "Image": "ami-0a313d6098716f372",
+  "KeyPair": "cg-ec2-key-pair-rce_web_app_cgidf2w55akgpm",
+  "Launched": "2023-06-01T21:27:24Z",
+  "Name": "cg-ubuntu-ec2-rce_web_app_cgidf2w55akgpm",
+  "NetworkInterfaces": [
+   "eni-0f50313a3b49f1a43"
+  ],
+  "PlacementGroup": "",
+  "PrivateIP": "10.0.10.208",
+  "Profile": "arn:aws:iam::034298275223:instance-profile/cg-ec2-instance-profile-rce_web_app_cgidf2w55akgpm",
+  "PublicDNS": "ec2-52-23-251-98.compute-1.amazonaws.com",
+  "PublicIP": "52.23.251.98",
+  "RootDevice": "/dev/sda1",
+  "RootDeviceType": "ebs",
+  "SecurityGroups": [
+   "sg-06610e7404d2d1ca8",
+   "sg-0b64dbf3172039668"
+  ],
+  "State": "running",
+  "Subnet": "subnet-0823077affc6030b3",
+  "Tags": [
+   "Stack=CloudGoat",
+   "Name=cg-ubuntu-ec2-rce_web_app_cgidf2w55akgpm",
+   "Scenario=rce-web-app"
+  ],
+  "Type": "t2.micro",
+  "Vpc": "vpc-01ec15b45b1118c54"
+ },
+ {
+  "Architecture": "x86_64",
+  "AvailabilityZone": "us-east-1a",
+  "Hypervisor": "xen",
+  "ID": "i-088a6976c3045a213",
+  "Image": "ami-0a313d6098716f372",
+  "KeyPair": "cg-ec2-key-pair-cloud_breach_s3_cgidtbs2c0t9ku",
+  "Launched": "2023-06-01T20:55:58Z",
+  "Name": "ec2-vulnerable-proxy-server-cloud_breach_s3_cgidtbs2c0t9ku",
+  "PlacementGroup": "",
+  "PublicDNS": "",
+  "RootDevice": "/dev/sda1",
+  "RootDeviceType": "ebs",
+  "State": "terminated",
+  "Tags": [
+   "Name=ec2-vulnerable-proxy-server-cloud_breach_s3_cgidtbs2c0t9ku",
+   "Scenario=cloud-breach-s3",
+   "Stack=CloudGoat"
+  ],
+  "Type": "t2.micro"
+ }
+]

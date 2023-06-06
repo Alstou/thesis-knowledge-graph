@@ -1,0 +1,23 @@
+[
+ {
+  "Arn": "arn:aws:iam::034298275223:user/cloudgoat2",
+  "Created": "2023-03-29T11:35:42Z",
+  "ID": "AIDAQP7CWEWL5MHAAPIPN",
+  "Name": "cloudgoat2",
+  "Path": "/"
+ },
+ {
+  "Arn": "arn:aws:iam::034298275223:user/McDuck",
+  "Created": "2023-06-01T21:22:48Z",
+  "ID": "AIDAQP7CWEWL6S3ECTBXG",
+  "Name": "McDuck",
+  "Path": "/"
+ },
+ {
+  "Arn": "arn:aws:iam::034298275223:user/lara",
+  "Created": "2023-06-01T21:22:48Z",
+  "ID": "AIDAQP7CWEWLZOFOY6Y7W",
+  "Name": "lara",
+  "Path": "/"
+ }
+]

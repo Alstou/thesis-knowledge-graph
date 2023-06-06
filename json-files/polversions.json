@@ -1,0 +1,45 @@
+[
+{
+  "Arn": "arn:aws:iam::aws:policy/AmazonS3FullAccess",
+  "ID": "ANPAIFIR6V6BVTRAHWINE-v1",
+  "VersionId": "v1",
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": "s3:*",
+          "Resource": "*"
+        }
+      ]
+    },
+    "VersionId": "v1",
+    "IsDefaultVersion": false,
+    "CreateDate": "2015-02-06T18:40:58+00:00"
+  }
+},
+{
+  "Arn": "arn:aws:iam::aws:policy/AmazonS3FullAccess",
+  "ID": "ANPAIFIR6V6BVTRAHWINE-v2",
+  "VersionId": "v2",
+  "PolicyVersion": {
+    "Document": {
+      "Version": "2012-10-17",
+      "Statement": [
+        {
+          "Effect": "Allow",
+          "Action": [
+            "s3:*",
+            "s3-object-lambda:*"
+          ],
+          "Resource": "*"
+        }
+      ]
+    },
+    "VersionId": "v2",
+    "IsDefaultVersion": true,
+    "CreateDate": "2021-09-27T20:16:37+00:00"
+  }
+}
+]
