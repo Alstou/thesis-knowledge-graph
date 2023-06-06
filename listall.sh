@@ -42,25 +42,3 @@ awless list volumes --format=json > json-files/volumes.json
 awless list buckets --format=json > json-files/buckets.json
 awless list s3objects --format=json > json-files/s3objects.json
 awless list keypairs --format=json > json-files/keypairs.json
-
-#check if the instances.json has only terminated instances
-
-
-# Check if instances file is empty
-# if [ ! -s "$filename" || ]; then
-#   echo "$filename is empty"
-#   exit 1
-# fi
-
-# if 
-
-
-# # Remove instances in terminated state
-# jq 'del(.[] | select(.State == "terminated"))' "$filename" > temp.json && mv temp.json "$filename"
-
-# # Check if file only contains '[]'
-# if [[ $(<"$filename") = "[]" ]]; then
-#   echo "$filename only contains []"
-# else
-#   echo "$filename contains other content"
-# fi
